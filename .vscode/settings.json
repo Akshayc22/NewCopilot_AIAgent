@@ -1,0 +1,61 @@
+{
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true
+  },
+  "github.copilot.advanced": {
+    "debug.overrideEngine": "copilot",
+    "debug.testOverrideProxyUrl": "",
+    "debug.overrideProxyUrl": "",
+    "length": 500
+  },
+  "github.copilot-chat.defaultLanguage": "typescript",
+  "ai-agent": {
+    "enabled": true,
+    "autoSuggestPrompts": true,
+    "contextAwareAssistance": true,
+    "promptCategories": [
+      "ui-generation",
+      "api-integration",
+      "testing-debugging",
+      "deployment",
+      "performance",
+      "security"
+    ]
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "files.associations": {
+    "*.md": "markdown",
+    "ai-prompts.json": "jsonc",
+    ".copilot-*": "markdown"
+  },
+  "markdown.extension.toc.levels": "1..6",
+  "emmet.includeLanguages": {
+    "dart": "html",
+    "typescript": "html"
+  },
+  "ai-prompts": {
+    "enabledStacks": [
+      "swift"
+    ],
+    "promptCategories": [
+      "ui-generation",
+      "api-integration",
+      "testing-debugging",
+      "deployment",
+      "performance",
+      "security"
+    ],
+    "autoSuggest": true,
+    "contextAware": true
+  }
+}

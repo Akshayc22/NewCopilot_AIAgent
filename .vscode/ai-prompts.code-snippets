@@ -1,0 +1,39 @@
+{
+  "AI Flutter UI": {
+    "prefix": "ai-flutter-ui",
+    "body": [
+      "Create a Flutter ${1:component_type} with:",
+      "- Material Design 3 components",
+      "- Responsive layout for mobile and tablet",
+      "- State management using ${2:Provider/Riverpod}",
+      "- ${3:specific_requirements}",
+      "",
+      "Include proper error handling and accessibility support."
+    ],
+    "description": "Flutter UI generation prompt"
+  },
+  "AI API Integration": {
+    "prefix": "ai-api",
+    "body": [
+      "Create ${1:platform} API service for ${2:feature_name} with:",
+      "- HTTP client with error handling",
+      "- Authentication and token management",
+      "- Type-safe response models",
+      "- Caching and offline support",
+      "- ${3:additional_requirements}"
+    ],
+    "description": "API integration prompt"
+  },
+  "AI Testing Setup": {
+    "prefix": "ai-test",
+    "body": [
+      "Generate comprehensive tests for ${1:component_name} including:",
+      "- Unit tests with ${2:90}% coverage",
+      "- Integration tests for user workflows",
+      "- Mock external dependencies",
+      "- Error condition testing",
+      "- ${3:specific_test_requirements}"
+    ],
+    "description": "Testing generation prompt"
+  }
+}
